@@ -1,0 +1,27 @@
+*{
+    box-sizing: 0px;
+    padding:0px;
+    margin: 0px;
+}
+
+body {
+    /*background: url('/icons/strawberry bun.jpg');*/
+    background:  #ffd480;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*font-style: ;*/
+}
+
+header h1{
+    background: #fff;
+    color: purple;
+    font-weight: 50;
+}
+
+div{
+    background: #ffeecc;
+    margin: 15px 0px;
+    padding: 0px -50px;
+    display: flex;
+}
+
