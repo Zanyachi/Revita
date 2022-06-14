@@ -6,13 +6,12 @@ var greeting = document.querySelector('#h3');
 
 // the greeting due to time
  
-
-if (hour > 12) {
-    greeting.innerHTML = "Good Afternoon!";
+if (hour > 18) {
+    greeting.innerHTML = "Good Evening!";
 }
 
-else if (hour > 18) {
-    greeting.innerHTML = "Good Evening!";
+else if (hour > 12) {
+    greeting.innerHTML = "Good Afternoon!";
 }
 
 else if (hour > 0){
