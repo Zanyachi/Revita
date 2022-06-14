@@ -47,6 +47,7 @@ div {
 ul {
     list-style-type: none;
     text-align: center;
+    font-family: Brush Script MT;
     font-style: italic;
     font-weight: bold;
 }
@@ -55,11 +56,14 @@ li {
     padding-bottom: 15px;
 }
 
+article {
+    text-align: center;
+}
+
 .foot-container {
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    left: 22%;
 }
